@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>functions Lesson JS</title>
+</head>
+<body>
+<!-- <script src="js/functions.js"> -->
+
+<script>
+function washCar(waxCarToo) {
+	console.log("Washing the car");
+	if (waxCarToo) {
+		console.log("Waxing the car");
+	}
+}	
+	function getGroceries(groceryList, storeName) {
+		var bagOfGroceries = {};
+		return bagOfGroceries;
+	}
+
+	// calls washCar funtion. If set to true, calls second action
+	washCar(true);
+
+	// creates alias (clone) of washCar function
+	var anotherCarWasher = washCar;
+	//calls cloned function
+	anotherCarWasher();
+
+	var groceries = getGroceries([], "HEB");
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* css code for css_intro.html 
+.fancy-header {
+	color: blue;
+} */
+
+/* Element Selector */
+h1 {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* ID selector */
+#main-header {
+	color: red;
+}
+
+/* Class Selector
+.fancy-header {
+	color: blue;
+} */
+

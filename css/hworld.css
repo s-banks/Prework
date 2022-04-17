@@ -1,0 +1,42 @@
+/* CSS file for hello_world.html */
+
+/* page background and font styling */
+body{
+	background-image: url(../img/background.png);
+	background-color: #d2d2d2;
+	/* background-position: center; */
+	font-family: 'Arvo', serif;
+}
+
+/* heading format */
+h1,h2{
+	color: #00adff;
+	text-decoration: underline;
+}
+
+/* square bullet style */
+ul.a{list-style-type: square;}
+
+/* Table padding and font size */
+table, th, td{
+	padding: 10px;
+	font-size: large;
+}
+
+/* link formatting
+unvisited link (:link) */
+a:link {
+    color:blue;
+}
+/* visited link (:visited) */
+a:visited {
+    color:blueviolet;
+}
+/* mouse hover over link (:hover) */
+a:hover {
+    color:orange;
+}
+/* active or selected link (:active) */
+a:active {
+    color:green;
+}

@@ -1,0 +1,71 @@
+/* CSS file for css_box_model.html */
+
+/* body font styling */
+body {
+	color: white;
+	font-weight: bold;
+}
+
+/* main header */
+h1 {
+	font-weight: bold;
+}
+
+/* common div characteristics */
+div {
+	width: 150px;
+	height: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* individual div classes a-f */
+div.a {
+	background-color: red;
+}
+
+div.b {
+	background-color: orange;
+	margin-left: 30px;
+}
+
+div.c {
+	background-color: yellow;
+	margin-left: 60px;
+}
+
+div.d {
+	background-color: green;
+	margin-left: 90px;
+}
+
+div.e {
+	background-color: blue;
+	margin-left: 120px;
+}
+
+div.f {
+	background-color: violet;
+	margin-left: 150px;
+}
+
+/* link formatting
+unvisited link (:link) */
+a:link {
+	color:blue;
+}
+/* visited link (:visited) */
+a:visited {
+	color:blueviolet;
+}
+/* mouse hover over link (:hover) */
+a:hover {
+	color:orange;
+}
+/* active or selected link (:active) */
+a:active {
+	color:green;
+}
